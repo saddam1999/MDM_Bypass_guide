@@ -19,7 +19,7 @@ it will ask you for authentication. type yes and press enter. Then it will ask f
 
 Once you're inside type:
 ```
-cd /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/ConfigurationProfiles/Library
+cd /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/
 ```
 Once you're in the directory type: ls. You should see 2 files. the first one is CloudconfigurationDetails.plist and the second one is CloudConfigurationSetAsideDetails.plist
 These files are by default binary so you need to convert them first. No biggy just type:
